@@ -6,12 +6,12 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background: linear-gradient(135deg, #ba8ee8, #fbabbc);
+    background: linear-gradient(135deg, #BA8EE8, #FBABBC);
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: rgb(255, 255, 255);
+    color: white;
 }
 
 .login-container {
@@ -85,8 +85,8 @@ button {
 }
 
 button:hover {
-    background: linear-gradient(45deg, #ff4b2b, #ff416c);
-    box-shadow: 0 8px 15px rgba(255, 75, 43, 0.3);
+    background: linear-gradient(45deg, #75be3d, #a0d366);
+    box-shadow: 0 8px 15px rgba(50, 114, 42, 0.3);
 }
 
 #message {
