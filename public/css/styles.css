@@ -6,12 +6,12 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background: linear-gradient(135deg, #BA8EE8, #FBABBC);
+    background: linear-gradient(135deg, #ffa4a9, #ffe699);
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 .login-container {
@@ -23,10 +23,22 @@ body {
     text-align: center;
     width: 350px;
     transition: all 0.3s ease;
+    position: relative;
 }
 
 .login-container:hover {
     transform: scale(1.05);
+}
+
+.logo-container {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
+
+.logo-container img {
+    width: 300px;
+    height: auto;
 }
 
 h1 {
@@ -85,8 +97,8 @@ button {
 }
 
 button:hover {
-    background: linear-gradient(45deg, #75be3d, #a0d366);
-    box-shadow: 0 8px 15px rgba(50, 114, 42, 0.3);
+    background: linear-gradient(45deg, #A1D6B2, #D5ED9F);
+    box-shadow: 0 8px 15px rgba(109, 168, 81, 0.3);
 }
 
 #message {
